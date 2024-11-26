@@ -19,7 +19,7 @@ with open('trained_model.pkl', 'rb') as file:
 def predict():
     data = request.get_json()
     # ... preprocess input data (if needed)
-    prediction = model.predict([[data['feature1'], data['feature2'], ...]])  # Adjust features
+    prediction = model.predict([[data['Sleep Duration'], data['Quality of Sleep'], data['Physical Activity Level'], data['Stress Level],data['Stress Level'], data['BMI Category'], data['Blood Pressure'], data['Blood Pressure],data['Heart Rate'], data['Daily Steps'], data['Sleep Disorder']]])  # Adjust features
     return jsonify({'prediction': prediction[0]})
 
 if __name__ == '__main__':
