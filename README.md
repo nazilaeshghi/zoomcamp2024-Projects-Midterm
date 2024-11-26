@@ -12,7 +12,7 @@ How the model can help Predictive insights: The model can provide insights into 
 
 1. **Install Dependencies:**
 2. **Download the dataset:**
-   - Download the "Sleep_health_and_lifestyle_dataset.csv" file from ["import kagglehub path = kagglehub.dataset_download("uom190346a/sleep-health-and-lifestyle-dataset"].
+   - Download the dataset from: https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset
    - Place it in the project's root directory.
 
 3. **Run the notebook:**
